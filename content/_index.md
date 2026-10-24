@@ -28,7 +28,7 @@ Notes live on the [posts](/posts/) page. A longer paper list is on [publications
   authors="Phuc Minh Nguyen, Ngoc-Hieu Nguyen, Parshin Shojaee, Chinh Duc La, Duy Minh Ho Nguyen, Rui Zhang, Khoa D Doan, Ting Hua, Nitesh V. Chawla."
   venue="NeurIPS 2026"
   award="Poster"
-  image="/images/publications/primacy.png"
+  image="images/publications/primacy.png"
   paper="https://openreview.net/forum?id=iYqWuTaHph"
 >}}
 @inproceedings{
@@ -46,7 +46,7 @@ url={https://openreview.net/forum?id=iYqWuTaHph}
   authors="Phuc Minh Nguyen, Chinh Duc La, Duy Minh Ho Nguyen, Nitesh V. Chawla, Binh Nguyen, Khoa D. Doan"
   venue="NeurIPS 2026"
   award="Poster"
-  image="/images/publications/reasoning_paradox.png"
+  image="images/publications/reasoning_paradox.png"
   paper="https://openreview.net/forum?id=gIIcM35wXp"
 >}}
 @inproceedings{
@@ -64,7 +64,7 @@ url={https://openreview.net/forum?id=gIIcM35wXp}
   authors="Ngoc-Hieu Nguyen, Parshin Shojaee, Phuc Minh Nguyen, Nan Zhang, Chandan K. Reddy, Khoa D Doan, Rui Zhang"
   venue="NeurIPS 2026"
   award="Poster"
-  image="/images/publications/fork_in_the_road.png"
+  image="images/publications/fork_in_the_road.png"
   paper="https://openreview.net/forum?id=ivza8JIW9s"
 >}}
 @inproceedings{
