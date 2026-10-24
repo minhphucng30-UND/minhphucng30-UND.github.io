@@ -25,19 +25,58 @@ Notes live on the [posts](/posts/) page. A longer paper list is on [publications
 
 {{< publication
   title="On the Primacy Bias in RLVR Training"
-  authors="**Phuc Minh Nguyen**, Ngoc-Hieu Nguyen, Parshin Shojaee, Chinh Duc La, Duy Minh Ho Nguyen, Rui Zhang, Khoa D Doan, Ting Hua, Nitesh V. Chawla."
+  authors="Phuc Minh Nguyen, Ngoc-Hieu Nguyen, Parshin Shojaee, Chinh Duc La, Duy Minh Ho Nguyen, Rui Zhang, Khoa D Doan, Ting Hua, Nitesh V. Chawla."
   venue="NeurIPS 2026"
   award="Poster"
   image="/images/publications/primacy.png"
-  paper="https://openreview.net/forum?id=GWKbSM8yCw"
-  slides="/slides/Auditing_mathematic.pdf"
+  paper="https://openreview.net/forum?id=iYqWuTaHph"
+  <!-- slides="/slides/Auditing_mathematic.pdf" -->
 >}}
-@inproceedings{nguyen2026agentbased,
-  title={On the Primacy Bias in RLVR Training},
-  author={**Phuc Minh Nguyen**, Ngoc-Hieu Nguyen, Parshin Shojaee, Chinh Duc La, Duy Minh Ho Nguyen, Rui Zhang, Khoa D Doan, Ting Hua, Nitesh V. Chawla.},
-  booktitle={NeurIPS},
-  year={2026},
-  url={https://openreview.net/forum?id=GWKbSM8yCw}
+@inproceedings{
+anonymous2026on,
+title={On the Primacy Bias in {RLVR} Training},
+author={Anonymous},
+booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+year={2026},
+url={https://openreview.net/forum?id=iYqWuTaHph}
+}
+{{< /publication >}}
+
+{{< publication
+  title="The Reasoning Boundary Paradox: How Reinforcement Learning Constrains Language Models"
+  authors="Phuc Minh Nguyen, Chinh Duc La, Duy Minh Ho Nguyen, Nitesh V. Chawla, Binh Nguyen, Khoa D. Doan"
+  venue="NeurIPS 2026"
+  award="Poster"
+  image="/images/publications/reasoning_paradox.png"
+  paper="https://openreview.net/forum?id=gIIcM35wXp"
+  <!-- slides="/slides/Auditing_mathematic.pdf" -->
+>}}
+@inproceedings{
+anonymous2026the,
+title={The Reasoning Boundary Paradox: How Reinforcement Learning Constrains Language Models},
+author={Anonymous},
+booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+year={2026},
+url={https://openreview.net/forum?id=gIIcM35wXp}
+}
+{{< /publication >}}
+
+{{< publication
+  title="Why Do Reasoning Models Lose Coverage? The Role of Data and Forks in the Road"
+  authors="Ngoc-Hieu Nguyen, Parshin Shojaee, Phuc Minh Nguyen, Nan Zhang, Chandan K. Reddy, Khoa D Doan, Rui Zhang"
+  venue="NeurIPS 2026"
+  award="Poster"
+  image="/images/publications/fork_in_the_road.png"
+  paper="https://openreview.net/forum?id=ivza8JIW9s"
+  <!-- slides="/slides/Auditing_mathematic.pdf" -->
+>}}
+@inproceedings{
+nguyen2026why,
+title={Why Do Reasoning Models Lose Coverage? The Role of Data and Forks in the Road},
+author={Ngoc-Hieu Nguyen and Parshin Shojaee and Nguyen Minh Phuc and Nan Zhang and Chandan K. Reddy and Khoa D Doan and Rui Zhang},
+booktitle={Third Conference on Language Modeling},
+year={2026},
+url={https://openreview.net/forum?id=ivza8JIW9s}
 }
 {{< /publication >}}
 
