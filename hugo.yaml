@@ -25,7 +25,7 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/phuc-nguyen-0574b0243"
     - name: email
-      url: "minhphucng30@gmail.com"
+      url: "mailto:minhphucng30@gmail.com"
 
 markup:
   goldmark:
