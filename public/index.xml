@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Phuc&#39;s Research Notes</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Phuc&#39;s Research Notes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Coverage Shrinkage in RLVR</title>
+      <link>http://localhost:1313/rlvr-coverage/</link>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rlvr-coverage/</guid>
+      <description>&lt;p&gt;Why can pass@1 improve while pass@k decreases?&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Write your introduction here.&lt;/p&gt;
+&lt;h2 id=&#34;key-observations&#34;&gt;Key observations&lt;/h2&gt;
+&lt;p&gt;Describe your experiments and findings.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;Add links to the papers you discuss.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
