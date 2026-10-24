@@ -1,0 +1,72 @@
+.publication {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 28px 0;
+}
+
+.publication-image {
+  width: 180px;
+  height: 125px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
+.publication-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.publication-details h3 {
+  margin: 0 0 8px;
+  font-size: 19px;
+}
+
+.publication-details p {
+  margin: 4px 0;
+  font-size: 15px;
+}
+
+.publication-venue {
+  color: var(--secondary);
+  font-style: italic;
+}
+
+.publication-award {
+  color: #c46025;
+  font-weight: 600;
+}
+
+.publication-links {
+  display: flex;
+  gap: 14px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.publication-bibtex {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.publication-bibtex summary {
+  cursor: pointer;
+}
+
+.publication-bibtex pre {
+  overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+  .publication {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .publication-image {
+    width: 100%;
+    height: 180px;
+  }
+}

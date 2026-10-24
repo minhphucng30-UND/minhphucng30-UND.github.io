@@ -1,0 +1,37 @@
+<article class="publication">
+  {{ with .Get "image" }}
+  <img
+    class="publication-image"
+    src="{{ . | relURL }}"
+    alt="{{ $.Get "title" }}"
+    loading="lazy"
+  >
+  {{ end }}
+
+  <div class="publication-details">
+    <h3>{{ .Get "title" }}</h3>
+    <p>{{ .Get "authors" }}</p>
+    <p class="publication-venue">{{ .Get "venue" }}</p>
+
+    {{ with .Get "award" }}
+    <p class="publication-award">{{ . }}</p>
+    {{ end }}
+
+    <div class="publication-links">
+      {{ with .Get "paper" }}
+      <a href="{{ . }}">Paper</a>
+      {{ end }}
+
+      {{ with .Get "slides" }}
+      <a href="{{ . | relURL }}">Slides</a>
+      {{ end }}
+    </div>
+
+    {{ with .Inner }}
+    <details class="publication-bibtex">
+      <summary>BibTeX</summary>
+      <pre><code>{{ . }}</code></pre>
+    </details>
+    {{ end }}
+  </div>
+</article>
