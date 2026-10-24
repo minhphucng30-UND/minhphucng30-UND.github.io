@@ -49,7 +49,6 @@ url={https://openreview.net/forum?id=iYqWuTaHph}
   award="Poster"
   image="/images/publications/reasoning_paradox.png"
   paper="https://openreview.net/forum?id=gIIcM35wXp"
-  <!-- slides="/slides/Auditing_mathematic.pdf" -->
 >}}
 @inproceedings{
 anonymous2026the,
