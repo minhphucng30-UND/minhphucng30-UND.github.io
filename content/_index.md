@@ -76,3 +76,21 @@ year={2026},
 url={https://openreview.net/forum?id=ivza8JIW9s}
 }
 {{< /publication >}}
+
+{{< publication
+  title="Mitigating Reward Over-optimization in Direct Alignment Algorithms with Importance Sampling"
+  authors="Phuc Minh Nguyen, Ngoc-Hieu Nguyen, Duy H. M. Nguyen, Anji Liu, An Mai, Binh T. Nguyen, Daniel Sonntag, Khoa D. Doan"
+  venue="NeurIPS 2025"
+  award="Poster"
+  image="/images/publications/mitigating_over.png"
+  paper="https://openreview.net/forum?id=ltPRj2nthL"
+>}}
+@inproceedings{
+phuc2025mitigating,
+title={Mitigating Reward Over-optimization in Direct Alignment Algorithms with Importance Sampling},
+author={Nguyen Minh Phuc and Ngoc-Hieu Nguyen and Duy Minh Ho Nguyen and Anji Liu and An Mai and Binh T. Nguyen and Daniel Sonntag and Khoa D Doan},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=ltPRj2nthL}
+}
+{{< /publication >}}
