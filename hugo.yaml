@@ -1,35 +1,42 @@
 baseURL: "https://minhphucng30-UND.github.io/"
 languageCode: "en-us"
-title: "Phuc's Research Notes"
+title: "Phuc Nguyen"
 theme: "PaperMod"
 
 params:
   author: "Phuc Nguyen"
+  description: "Research notes on reinforcement learning, language model reasoning, and scaling laws."
   defaultTheme: auto
   ShowReadingTime: true
   ShowCodeCopyButtons: true
   ShowToc: true
   TocOpen: false
+  mainSections:
+    - posts
 
-  homeInfoParams:
-    Title: "Hi, I'm Phuc 👋"
-    Content: |
-      Research notes on reinforcement learning, language model reasoning, and scaling laws.
+  # Icons under the homepage intro. Names must match PaperMod's icon list.
+  socialIcons:
+    - name: github
+      url: "https://github.com/minhphucng30-UND"
+    # - name: googlescholar
+    #   url: "https://scholar.google.com/citations?user=YOUR_ID"
 
-      [More about me →](/about/)
-
-  # Optional: show icon links under the home intro (PaperMod icon names)
-  # socialIcons:
-  #   - name: github
-  #     url: "https://github.com/your-username"
-  #   - name: googlescholar
-  #     url: "https://scholar.google.com/citations?user=YOUR_ID"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 menu:
   main:
+    - name: About
+      url: /
+      weight: 1
+    - name: Publications
+      url: /publications/
+      weight: 2
     - name: Posts
       url: /posts/
-      weight: 1
+      weight: 3
     - name: Tags
       url: /tags/
-      weight: 2
+      weight: 4

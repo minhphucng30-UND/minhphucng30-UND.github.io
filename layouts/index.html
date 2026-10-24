@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="about-page">
+    <div class="about-body post-content md-content">
+        {{- with .Params.profile.image }}
+        <img class="about-photo" src="{{ . | relURL }}" alt="{{ $.Params.profile.alt | default $.Title }}">
+        {{- end }}
+        <h1 class="about-name">{{ .Title }}</h1>
+        {{- with .Params.subtitle }}
+        <p class="about-subtitle">{{ . | markdownify }}</p>
+        {{- end }}
+        {{- with .Params.profile.caption }}
+        <p class="about-caption">{{ . | markdownify }}</p>
+        {{- end }}
+        {{- with .Params.links }}
+        <p class="about-links">
+            {{- range $i, $link := . }}
+            {{- if $i }} · {{ end }}
+            <a href="{{ $link.url }}">{{ $link.name }}</a>
+            {{- end }}
+        </p>
+        {{- end }}
+        {{ partial "social_icons.html" dict }}
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}

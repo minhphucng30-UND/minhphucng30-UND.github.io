@@ -1,0 +1,79 @@
+:root {
+    --main-width: 860px;
+}
+
+.about-body::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about-photo {
+    float: right;
+    width: 220px;
+    max-width: 42%;
+    height: auto;
+    margin: 0.2rem 0 1rem 1.5rem;
+    border-radius: var(--radius);
+}
+
+.about-name {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    line-height: 1.2;
+}
+
+.about-subtitle,
+.about-caption {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    color: var(--secondary);
+}
+
+.about-links {
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+}
+
+.about-page .social-icons {
+    margin: 0.2rem 0 1.25rem;
+}
+
+.about-page .social-icons a {
+    margin-right: 0.7rem;
+}
+
+.pub-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pub-list > li {
+    margin: 0 0 1.35rem;
+    padding-bottom: 1.1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.pub-list > li:last-child {
+    border-bottom: 0;
+}
+
+.pub-title {
+    font-weight: 600;
+}
+
+.pub-meta,
+.pub-authors {
+    margin: 0.2rem 0;
+    color: var(--secondary);
+}
+
+@media (max-width: 600px) {
+    .about-photo {
+        float: none;
+        display: block;
+        width: min(220px, 70%);
+        max-width: none;
+        margin: 0 0 1rem;
+    }
+}
