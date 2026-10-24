@@ -2,7 +2,7 @@
 title: "Phuc Nguyen"
 subtitle: "Reinforcement learning, language models, and reasoning."
 profile:
-  image: "/img/profile.svg"
+  image: "/img/avatar.jpeg"
   alt: "Phuc Nguyen"
   caption: ""
 links:
