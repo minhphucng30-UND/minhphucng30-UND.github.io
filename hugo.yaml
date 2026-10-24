@@ -18,8 +18,14 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/minhphucng30-UND"
-    # - name: googlescholar
-    #   url: "https://scholar.google.com/citations?user=YOUR_ID"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=Nk2qfSYAAAAJ&hl=en"
+    - name: x
+      url: "https://x.com/mi3049161"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/phuc-nguyen-0574b0243"
+    - name: email
+      url: "minhphucng30@gmail.com"
 
 markup:
   goldmark:
