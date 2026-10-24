@@ -12,8 +12,7 @@ links:
     url: /publications/
 ---
 
-Hi, I'm **Phuc**. This site is for research notes: ideas I'm working through, paper summaries, and what experiments actually showed.
-
+Hi, I'm **Phuc**, a CS PhD student at the University of Notre Dame adavised by Prof. <a href="https://niteshchawla.nd.edu/" target="_blank">Nitesh V. Chawla</a>. Previously, I was a Research Assistant at VinUniversity, advised by Prof. <a href="https://mail-research.com/" target="_blank">Khoa D. Doan</a>.
 I write about:
 
 1. Reinforcement learning and post-training for language models
@@ -30,7 +29,7 @@ Notes live on the [posts](/posts/) page. A longer paper list is on [publications
 <li>
 <p class="pub-title">Why Do Reasoning Models Lose Coverage? The Role of Data and Forks in the Road</p>
 <p class="pub-meta">Preprint, 2026</p>
-<p class="pub-authors">Ngoc-Hieu Nguyen, Parshin Shojaee, Phuc Minh Nguyen, and coauthors</p>
+<p class="pub-authors">Ngoc-Hieu Nguyen, Parshin Shojaee, **Phuc Minh Nguyen**, and coauthors</p>
 <p><a href="https://arxiv.org/abs/2605.17026">arXiv</a> · <a href="/posts/rlvr-coverage/">Notes</a></p>
 </li>
 </ul>
