@@ -1,15 +1,15 @@
 ---
-title: "Phuc Nguyen"
+title: "Phuc Minh Nguyen"
 subtitle: "Reinforcement learning, language models, and reasoning."
 profile:
   image: "/img/avatar.jpeg"
   alt: "Phuc Nguyen"
   caption: ""
-links:
-  - name: Posts
-    url: /posts/
-  - name: Publications
-    url: /publications/
+# links:
+#   - name: Posts
+#     url: /posts/
+#   - name: Publications
+#     url: /publications/
 ---
 
 Hi, I'm **Phuc**, a CS PhD student at the University of Notre Dame adavised by Prof. <a href="https://niteshchawla.nd.edu/" target="_blank">Nitesh V. Chawla</a>. Previously, I was a Research Assistant at VinUniversity, advised by Prof. <a href="https://mail-research.com/" target="_blank">Khoa D. Doan</a>. My research interest:
@@ -17,8 +17,6 @@ Hi, I'm **Phuc**, a CS PhD student at the University of Notre Dame adavised by P
 1. Reinforcement learning and post-training for language models
 2. Scaling laws for RL post-training.
 3. Understanding Pre-training behavior.
-
-Notes live on the [posts](/posts/) page. A longer paper list is on [publications](/publications/).
 
 ---
 ## Selected Publications
