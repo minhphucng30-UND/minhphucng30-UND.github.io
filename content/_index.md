@@ -24,18 +24,18 @@ Notes live on the [posts](/posts/) page. A longer paper list is on [publications
 ## Selected Publications
 
 {{< publication
-  title="Agent-Based Auditing of Mathematical Proofs in Research Papers"
-  authors="Ngoc-Hieu Nguyen and Rui Zhang"
-  venue="AI4Research Workshop @ ICML 2026"
-  award="Oral presentation"
-  image="/images/publications/informal_math_auditing.png"
+  title="On the Primacy Bias in RLVR Training"
+  authors="**Phuc Minh Nguyen**, Ngoc-Hieu Nguyen, Parshin Shojaee, Chinh Duc La, Duy Minh Ho Nguyen, Rui Zhang, Khoa D Doan, Ting Hua, Nitesh V. Chawla."
+  venue="NeurIPS 2026"
+  award="Poster"
+  image="/images/publications/primacy.png"
   paper="https://openreview.net/forum?id=GWKbSM8yCw"
   slides="/slides/Auditing_mathematic.pdf"
 >}}
 @inproceedings{nguyen2026agentbased,
-  title={Agent-Based Auditing of Mathematical Proofs in Research Papers},
-  author={Ngoc-Hieu Nguyen and Rui Zhang},
-  booktitle={ICML 2026 Workshop: AI as a Tool for Mathematics, Computer Science, and Machine Learning},
+  title={On the Primacy Bias in RLVR Training},
+  author={**Phuc Minh Nguyen**, Ngoc-Hieu Nguyen, Parshin Shojaee, Chinh Duc La, Duy Minh Ho Nguyen, Rui Zhang, Khoa D Doan, Ting Hua, Nitesh V. Chawla.},
+  booktitle={NeurIPS},
   year={2026},
   url={https://openreview.net/forum?id=GWKbSM8yCw}
 }
