@@ -13,9 +13,17 @@ params:
 
   homeInfoParams:
     Title: "Hi, I'm Phuc 👋"
-    Content: >
-      Research notes on reinforcement learning,
-      language model reasoning, and scaling laws.
+    Content: |
+      Research notes on reinforcement learning, language model reasoning, and scaling laws.
+
+      [More about me →](/about/)
+
+  # Optional: show icon links under the home intro (PaperMod icon names)
+  # socialIcons:
+  #   - name: github
+  #     url: "https://github.com/your-username"
+  #   - name: googlescholar
+  #     url: "https://scholar.google.com/citations?user=YOUR_ID"
 
 menu:
   main:
