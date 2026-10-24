@@ -68,7 +68,6 @@ url={https://openreview.net/forum?id=gIIcM35wXp}
   award="Poster"
   image="/images/publications/fork_in_the_road.png"
   paper="https://openreview.net/forum?id=ivza8JIW9s"
-  <!-- slides="/slides/Auditing_mathematic.pdf" -->
 >}}
 @inproceedings{
 nguyen2026why,
