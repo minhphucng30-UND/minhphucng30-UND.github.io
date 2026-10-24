@@ -30,7 +30,6 @@ Notes live on the [posts](/posts/) page. A longer paper list is on [publications
   award="Poster"
   image="/images/publications/primacy.png"
   paper="https://openreview.net/forum?id=iYqWuTaHph"
-  <!-- slides="/slides/Auditing_mathematic.pdf" -->
 >}}
 @inproceedings{
 anonymous2026on,
